@@ -21,7 +21,7 @@ variable "network_domain" {
 
 variable "network_addresses" {
   description = "A list of subnets in CIDR notation"
-  type        = list
+  type        = list(any)
 }
 
 variable "network_autostart" {
