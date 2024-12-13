@@ -35,7 +35,7 @@ No modules.
 | <a name="input_network_addresses"></a> [network\_addresses](#input\_network\_addresses) | A list of subnets in CIDR notation | `list` | n/a | yes |
 | <a name="input_network_autostart"></a> [network\_autostart](#input\_network\_autostart) | Start the network on host boot up | `bool` | `true` | no |
 | <a name="input_network_domain"></a> [network\_domain](#input\_network\_domain) | The domain used by the DNS server | `string` | n/a | yes |
-| <a name="input_network_mode"></a> [network\_mode](#input\_network\_mode) | The mode of the network. Possible modes: nat (Default), none, route, open, bridge | `string` | `"nat"` | no |
+| <a name="input_network_mode"></a> [network\_mode](#input\_network\_mode) | The mode of the network. Possible modes: nat (Default), none, route, open, bridge | `string` | n/a | yes |
 | <a name="input_network_name"></a> [network\_name](#input\_network\_name) | The name of the network | `string` | n/a | yes |
 
 ## Outputs
