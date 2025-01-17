@@ -1,5 +1,8 @@
 # tf-module-kvm-network
-Terraform module to create a KVM network via libvirt
+Terraform module to create a KVM network via libvirt.
+
+Examples:
+- [https://github.com/k-candidate/tf-kvm-network-nat](https://github.com/k-candidate/tf-kvm-network-nat)
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
